@@ -12,15 +12,16 @@
     <h1>Event Handling</h1>
 
     <svg>
-        <circle id="circle1" cx="50" cy="50" r="40"/>
+        <circle id="circle1" cx="70" cy="70" r="60" onclick="circle1Clicked()"/>
+        <text id="numClicks" x="70" y="70">0</text>
     </svg>
 
     <svg>
-        <circle id="circle2" cx="50" cy="50" r="40"/>
+        <circle id="circle2" cx="70" cy="70" r="60" onmouseover="circle2Mouseover()" onmouseout="circle2Mouseout()"/>
     </svg>
 
     <svg>
-        <circle id="circle3" cx="50" cy="50" r="40"/>
+        <circle id="circle3" cx="70" cy="70" r="60" onclick="circle3Clicked()"/>
     </svg>
 
     <script src="main.js"></script>
